@@ -27,7 +27,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 22px;
+    gap: 24px;
 }
 
 .card__description {
@@ -38,6 +38,9 @@ body {
 .card__info {
     flex-basis: 380px;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .card__link {
